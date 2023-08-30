@@ -1,0 +1,32 @@
+@import url(/Estilos/principal.css);
+@import url(/Estilos/opcoes.css);
+@import url(/Estilos/meu_funeral.css);
+@import url(/Estilos/botao.css);
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --branco: #FFFFFF;
+    --laranja:#EB9800;
+    --azul-degrade: linear-gradient(97.54deg,#002f52 35.40%, #326589 165.37%);
+    --preto:#000000;
+    --fonte-principal: poppins; 
+    --azul: #002F52;
+    --fonte-secundaria:"Josefin Sans";
+    --cinza:#474646;
+    --cinza-claro:#858585;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+}
+
+
