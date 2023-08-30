@@ -9,7 +9,7 @@
 /* Estilos para o título */
 .titulo_principal {
     font-family: var(--fonte-principal);
-    font-size: 40px;
+    font-size: 25px;
     color: var(--branco);
     text-align: center; /* Centraliza o texto horizontalmente */
 }
@@ -18,11 +18,20 @@
 .funeral, .meu__funeral {
     margin: 20px; /* Adiciona espaços em volta da div */
     font-family: var(--fonte-principal);
-    font-size: 30px;
+    font-size: 12px;
     align-items: center;
 }
 
 /* Estilos para o título secundário */
 .t1tulo_02 {
-    align-items: center;
+    margin: 20px; /* Adiciona espaços em volta da div */
+    font-family: var(--fonte-principal);
+    color:rgb(255, 251, 251);
+    font-size: 25px;
+    align-self: center;
+    display: block;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 10px 10px;
+    border: 2px solid white;
+    background-color: rgba(148, 142, 142, 0.8); /* Cor de fundo com opacidade */
 }
