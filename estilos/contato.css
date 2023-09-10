@@ -1,0 +1,58 @@
+/* Estilos para a página */
+.pagina_30 {
+    background-image: url(../imagens/fundo_contato.png);
+    min-height: 100vh; /* Garante que a página tenha pelo menos a altura da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para o formulário */
+.formulario {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    width: 80%; /* Largura do formulário */
+    margin: 10px auto 10px; /* Margem superior aumentada para adicionar espaço no topo */
+    border: 2px solid white; /* Borda branca */
+    text-align: center; /* Centralizar o conteúdo do formulário */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 10px white;
+}
+
+.campo {
+    font-family: "Arial", sans-serif; /* Fonte */
+    color: white; /* Cor do texto */
+    background: transparent; /* Fundo transparente */
+    border: 2px solid white; /* Borda branca */
+    border-radius: 1em;
+    padding: 10px; /* Espaçamento interno */
+    margin: 5px 0; /* Espaçamento entre campos */
+    width: 90%; /* Largura total do campo */
+    height: 30px;
+    box-shadow: 2px 2px 15px white;
+}
+
+.campo::placeholder {
+    color: white; /* Cor do placeholder */
+    font-size: 20px;
+    text-align: center;
+}
+
+.botao_funeral {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
+    color: white; /* Cor do texto do botão */
+    border: 2px solid white; /* Borda branca */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remover sublinhado de links */
+    display: inline-block; /* Exibir como bloco inline */
+    margin: 10px 0px; /* Espaçamento entre botões */
+}
+
+/* Estilos adicionais para o título do formulário */
+.titulo_form {
+    padding: 20px 10px 10px; /* Adiciona margem superior para espaço entre título e campos */
+    font-size: 30px; /* Tamanho da fonte */
+    text-transform: uppercase;
+    font-weight: bold; /* Peso da fonte em negrito */
+    color: white;
+}
