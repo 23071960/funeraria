@@ -1,0 +1,10 @@
+.cabeçalho_principal{
+    background-color:rgba(#d6c8c8, #9c96c0, #000000, 0.1)
+}
+.menu_hamburger, .imagem__menu {
+    background-image: url(imagens/menu_hamburguer.svg);
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    /* Adicione outros estilos necessários, como background-size, background-position, etc. */
+}
