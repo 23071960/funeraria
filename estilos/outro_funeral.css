@@ -1,4 +1,50 @@
 .pagina_04{
     background-image: url(../imagens/fundo_04.png);
+    color: #ffffff; 
+    font-family: var(--fonte-principal);
+    text-align: center; /* Centraliza o texto horizontalmente */
+    
+}
+.pagina_04__pergunta{  
+    margin-top: 100px;  
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    color: var(--branco);
+    text-align: center; /* Centraliza o texto horizontalmente */
+    display: flex;
+    text-transform: uppercase;
+      
+ }
+ .box_escolha{
+   margin-top: 30px; 
+   width: 50%; 
+   align-items: center;
+   padding:  30px 20px;
+   background-color: rgba(92, 166, 228, 0.5);
+   border-radius: 0.5em;
+   cursor: pointer;
+   box-shadow: 2px 2px 10px white;  
+   color:white;
+   font-size: 25px;
+   text-align: center; /* Centraliza o texto horizontalmente */
+ }
 
+.texto__link{
+   font-family: var(--fonte-principal);
+   font-size: 25px;
+   color: white; /* Cor do texto não visitado */
+   text-decoration: none;       
+}
+
+.botao__voltar{
+   margin-top: 50px;  
+   padding: 10px 30px;
+   background-color: rgba(92, 166, 228, 0.5);
+   border-radius: 0.5em;
+   cursor: pointer;
+   box-shadow: 2px 2px 10px white;  
+   color:white;
+   font-size: 25px;
+   text-align: center; /* Centraliza o texto horizontalmente */
+   text-decoration: none;
 }
