@@ -1,5 +1,5 @@
 .pagina_04{
-    background-image: url(../imagens/fundo_04.png);
+    background-image: url(imagens/fundo_04.png);
     color: #ffffff; 
     font-family: var(--fonte-principal);
     text-align: center; /* Centraliza o texto horizontalmente */
